@@ -53,8 +53,8 @@
     bottom: -24px;
 }
 
-.main-dice-button:focus,
-.main-dice-button:hover {
+.main-dice-button:hover,
+.main-dice-button:focus {
     color: hsl(150, 100%, 66%);
     box-shadow: 0 5px 20px hsl(150, 100%, 66%);
     cursor: pointer;
