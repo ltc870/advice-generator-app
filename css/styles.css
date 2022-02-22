@@ -42,7 +42,8 @@ body {
 ********************/
 .main-advice-id {
   font-size: .6875rem;
-  color: #52ffa8; }
+  color: #52ffa8;
+  letter-spacing: .5em; }
 
 .main-advice {
   font-size: 1.5rem;
