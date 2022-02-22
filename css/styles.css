@@ -58,7 +58,7 @@ body {
   border-radius: 10px;
   width: 80%;
   padding: 3em 2em;
-  max-width: 375px;
+  max-width: 343px;
   margin: 10em auto 4em;
   text-align: center;
   position: relative; }
@@ -66,7 +66,8 @@ body {
 .main-divider {
   color: #cee3e9;
   display: block;
-  margin: 0 auto 1em; }
+  margin: 0 auto 1em;
+  width: 240px; }
 
 .main-dice-button {
   background-color: #52ffa8;
@@ -85,7 +86,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  left: 164px;
+  left: 126px;
   bottom: -24px; }
 
 .main-dice-button:hover,
