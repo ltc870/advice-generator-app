@@ -1,0 +1,60 @@
+/********************
+    MOBILE STYLES
+********************/
+
+/********************
+    Typography
+********************/
+
+.main-advice-id {
+    font-size: .6875rem;
+    color: hsl(150, 100%, 66%);
+}
+
+.main-advice {
+    font-size: 1.5rem;
+    color: hsl(193, 38%, 86%);
+}
+
+/********************
+       Layout
+********************/
+
+.main-container {
+    background-color: hsl(217, 19%, 30%);
+    border-radius: 10px;
+    width: 80%;
+    padding: 3em 2em;
+    max-width: 375px;
+    margin: 10em auto 4em;
+    text-align: center;
+    position: relative;
+}
+
+.main-divider {
+    color: hsl(193, 38%, 86%);
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.main-dice-button {
+    background-color: hsl(150, 100%, 66%);
+    border: solid 2px hsl(150, 100%, 66%);
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 164px;
+    bottom: -24px;
+}
+
+.main-dice-button:focus,
+.main-dice-button:hover {
+    color: hsl(150, 100%, 66%);
+    box-shadow: 0 5px 20px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
