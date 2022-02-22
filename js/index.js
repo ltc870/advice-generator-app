@@ -4,13 +4,9 @@ const mainAdviceId = document.querySelector("#main-advice-id");
 const mainAdvice = document.querySelector("#main-advice");
 const mainBtn = document.querySelector("#main-btn");
 
-mainBtn.addEventListener("click", () => {
-    getAdvice();
-});
+mainBtn.addEventListener("click", getAdvice);
 
-window.onload = () => {
-    getAdvice();
-};
+window.addEventListener("load", getAdvice)
 
 function getAdvice() {
     fetch("https://api.adviceslip.com/advice")
