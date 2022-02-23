@@ -67,7 +67,7 @@ body {
   color: #cee3e9;
   display: block;
   margin: 0 auto 1em;
-  width: 240px; }
+  width: 90%; }
 
 .main-dice-button {
   background-color: #52ffa8;
@@ -96,15 +96,41 @@ body {
           box-shadow: 0 5px 20px #52ffa8;
   cursor: pointer; }
 
-@media (min-width: 700px) {
+@media (min-width: 540px) {
   .main-container {
     background-color: #3e495b;
     border-radius: 10px;
     width: 80%;
     padding: 3em 2em;
-    max-width: 375px;
+    max-width: 520px;
     margin: 10em auto 4em;
     text-align: center;
-    position: relative; } }
+    position: relative; }
+
+  .main-divider {
+    color: #cee3e9;
+    display: block;
+    margin: 0 auto 1em;
+    width: 90%; }
+
+  .main-dice-button {
+    background-color: #52ffa8;
+    border: solid 2px #52ffa8;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 238px;
+    bottom: -24px; } }
 
 /*# sourceMappingURL=styles.css.map */
