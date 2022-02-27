@@ -60,8 +60,7 @@ body {
   padding: 3em 2em;
   max-width: 343px;
   margin: 10em auto 4em;
-  text-align: center;
-  position: relative; }
+  text-align: center; }
 
 .main-divider {
   color: #cee3e9;
@@ -85,9 +84,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
-  left: 126px;
-  bottom: -24px; }
+  position: relative;
+  left: 2px;
+  bottom: -70px; }
 
 .main-dice-button:hover,
 .main-dice-button:focus {

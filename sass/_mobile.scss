@@ -29,7 +29,6 @@
     max-width: 343px;
     margin: 10em auto 4em;
     text-align: center;
-    position: relative;
 }
 
 .main-divider {
@@ -49,9 +48,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 126px;
-    bottom: -24px;
+    position: relative;
+    left: 2px;
+    bottom: -70px;
 }
 
 .main-dice-button:hover,
